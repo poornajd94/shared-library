@@ -8,7 +8,7 @@ def call(String username = 'null') {
 		stages {
 			stage('SHARED-STAGE') {
 				steps {
-					echo "Hi $USER_NAME, How are you !"
+					echo "Hi Hello $USER_NAME, How are you !"
 				}	
 			}
 		}
